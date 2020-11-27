@@ -2,7 +2,7 @@
 ''' Inicialização das variáveis'''
 status = 1
 b = []
-J =  {'Chave1':12, 'Chave2':34, 'Chave3':67}
+J =  {1:12, 1:34, 3:67}
  
 ''''Começo do código '''
 
@@ -14,5 +14,5 @@ while status != 0:
 if status == 0:
     for c in b:
         print('\nValores adicionados ',c)
-        print('As chaves são ',str(J['Chave1']))
+        print('As chaves são ',str(J[1]))
 
